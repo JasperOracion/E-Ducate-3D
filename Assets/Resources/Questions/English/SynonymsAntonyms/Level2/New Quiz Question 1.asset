@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: New Quiz Question 1
   m_EditorClassIdentifier: 
   question: Synonym of sketch
-  answers: []
+  answers:
+  - draw
+  - illustrate
+  - depict
+  - portray
+  - represent
+  - pencil
   correctAnswer: 0
-  correctAnswerString: draw
+  correctAnswerString: 
   correctAnswerString2: 

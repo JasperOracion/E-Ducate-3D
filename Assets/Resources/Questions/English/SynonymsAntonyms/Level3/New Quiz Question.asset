@@ -13,7 +13,16 @@ MonoBehaviour:
   m_Name: New Quiz Question
   m_EditorClassIdentifier: 
   question: Synonym of garbage
-  answers: []
+  answers:
+  - trash
+  - waste
+  - refuse
+  - debris
+  - litter
+  - junk
+  - scrap
+  - filth
+  - muck
   correctAnswer: 0
-  correctAnswerString: trash
+  correctAnswerString: 
   correctAnswerString2: 

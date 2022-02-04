@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: New Quiz Question 7
   m_EditorClassIdentifier: 
   question: Antonym of woman
-  answers: []
+  answers:
+  - man
+  - boy
+  - male
+  - gentleman
+  - guy
+  - fellow
   correctAnswer: 0
-  correctAnswerString: man
+  correctAnswerString: 
   correctAnswerString2: 

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: New Quiz Question 7
   m_EditorClassIdentifier: 
   question: I am the farthest planet in the solar system.
-  answers: []
-  correctAnswer: 0
-  correctAnswerString: Neptune
+  answers:
+  - Jupiter
+  - Saturn
+  - Uranus
+  - Neptune
+  correctAnswer: 3
+  correctAnswerString: 
+  correctAnswerString2: 

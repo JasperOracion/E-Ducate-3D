@@ -13,7 +13,20 @@ MonoBehaviour:
   m_Name: New Quiz Question 3
   m_EditorClassIdentifier: 
   question: Synonym of look
-  answers: []
+  answers:
+  - see
+  - glance
+  - gaze
+  - stare
+  - gape
+  - peer
+  - peep
+  - peek
+  - watch
+  - examine
+  - inspect
+  - scan
+  - survey
   correctAnswer: 0
-  correctAnswerString: see
+  correctAnswerString: 
   correctAnswerString2: 

@@ -13,19 +13,7 @@ MonoBehaviour:
   m_Name: New Quiz Question 6
   m_EditorClassIdentifier: 
   question: "364 \xF7 28 ="
-  answers:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  correctAnswer: 13
-  correctAnswerString: 
+  answers: []
+  correctAnswer: 0
+  correctAnswerString: 13
+  correctAnswerString2: 

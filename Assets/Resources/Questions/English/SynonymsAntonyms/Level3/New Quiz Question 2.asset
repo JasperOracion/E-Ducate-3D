@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: New Quiz Question 2
   m_EditorClassIdentifier: 
   question: Synonym of begin
-  answers: []
+  answers:
+  - start
+  - undertake
+  - tackle
+  - initiate
+  - launch
   correctAnswer: 0
-  correctAnswerString: start
+  correctAnswerString: 
   correctAnswerString2: 

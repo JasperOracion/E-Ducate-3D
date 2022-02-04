@@ -13,7 +13,18 @@ MonoBehaviour:
   m_Name: New Quiz Question 9
   m_EditorClassIdentifier: 
   question: Antonym of good
-  answers: []
+  answers:
+  - bad
+  - unpleasant
+  - inferior
+  - unsatisfactory
+  - inadequate
+  - deficient
+  - terrible
+  - dreadful
+  - awful
+  - grim
+  - distressing
   correctAnswer: 0
-  correctAnswerString: bad
+  correctAnswerString: 
   correctAnswerString2: 

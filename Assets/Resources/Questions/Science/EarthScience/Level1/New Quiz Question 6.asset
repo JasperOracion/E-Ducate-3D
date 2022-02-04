@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: New Quiz Question 6
   m_EditorClassIdentifier: 
   question: I am also known as the coldest planet in the solar system.
-  answers: []
-  correctAnswer: 0
-  correctAnswerString: Uranus
+  answers:
+  - Jupiter
+  - Saturn
+  - Uranus
+  - Neptune
+  correctAnswer: 2
+  correctAnswerString: 
+  correctAnswerString2: 

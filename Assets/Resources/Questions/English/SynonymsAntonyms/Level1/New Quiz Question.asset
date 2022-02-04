@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: New Quiz Question
   m_EditorClassIdentifier: 
   question: Synonym of little
-  answers: []
+  answers:
+  - small
+  - tiny
+  - mini
+  - compact
   correctAnswer: 0
-  correctAnswerString: small
+  correctAnswerString: 
   correctAnswerString2: 

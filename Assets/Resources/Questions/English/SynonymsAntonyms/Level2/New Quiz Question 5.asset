@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: New Quiz Question 5
   m_EditorClassIdentifier: 
   question: Antonym of fast
-  answers: []
+  answers:
+  - slow
+  - lagging
+  - steady
+  - slow-moving
+  - sluggish
   correctAnswer: 0
-  correctAnswerString: slow
+  correctAnswerString: 
   correctAnswerString2: 

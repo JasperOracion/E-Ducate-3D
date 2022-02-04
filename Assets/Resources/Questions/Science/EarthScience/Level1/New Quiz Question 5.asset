@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: New Quiz Question 5
   m_EditorClassIdentifier: 
   question: I am also called as the Ringed Planet.
-  answers: []
-  correctAnswer: 0
-  correctAnswerString: Saturn
+  answers:
+  - Jupiter
+  - Saturn
+  - Uranus
+  - Neptune
+  correctAnswer: 1
+  correctAnswerString: 
+  correctAnswerString2: 

@@ -13,45 +13,7 @@ MonoBehaviour:
   m_Name: New Quiz Question 8
   m_EditorClassIdentifier: 
   question: 235 - 195 =
-  answers:
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  - 40
-  correctAnswer: 40
+  answers: []
+  correctAnswer: 0
+  correctAnswerString: 40
+  correctAnswerString2: 

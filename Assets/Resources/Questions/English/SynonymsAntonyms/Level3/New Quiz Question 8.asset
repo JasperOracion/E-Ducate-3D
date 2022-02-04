@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: New Quiz Question 8
   m_EditorClassIdentifier: 
   question: Antonym of light
-  answers: []
+  answers:
+  - dark
+  - unlit
+  - dim
   correctAnswer: 0
-  correctAnswerString: dark
+  correctAnswerString: 
   correctAnswerString2: 

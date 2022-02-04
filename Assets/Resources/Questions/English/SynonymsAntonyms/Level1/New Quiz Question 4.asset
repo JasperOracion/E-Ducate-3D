@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: New Quiz Question 4
   m_EditorClassIdentifier: 
   question: Synonym of beautiful
-  answers: []
+  answers:
+  - pretty
+  - attractive
+  - good-looking
+  - nice-looking
+  - lovely
+  - charming
   correctAnswer: 0
-  correctAnswerString: pretty
+  correctAnswerString: 
   correctAnswerString2: 

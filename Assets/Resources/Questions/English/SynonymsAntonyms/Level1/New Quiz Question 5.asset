@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: New Quiz Question 5
   m_EditorClassIdentifier: 
   question: Antonym of hot
-  answers: []
+  answers:
+  - cold
   correctAnswer: 0
-  correctAnswerString: cold
+  correctAnswerString: 
   correctAnswerString2: 

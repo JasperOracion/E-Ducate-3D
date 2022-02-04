@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: New Quiz Question 6
   m_EditorClassIdentifier: 
   question: Antonym of happy
-  answers: []
+  answers:
+  - sad
+  - sorrowful
+  - depressed
+  - miserable
+  - down
   correctAnswer: 0
-  correctAnswerString: sad
+  correctAnswerString: 
   correctAnswerString2: 

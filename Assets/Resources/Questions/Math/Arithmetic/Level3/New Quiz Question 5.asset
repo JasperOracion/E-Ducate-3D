@@ -13,11 +13,7 @@ MonoBehaviour:
   m_Name: New Quiz Question 5
   m_EditorClassIdentifier: 
   question: "50 \xF7 10 ="
-  answers:
-  - 
-  - 
-  - 
-  - 
-  - 
-  correctAnswer: 5
-  correctAnswerString: 
+  answers: []
+  correctAnswer: 0
+  correctAnswerString: 5
+  correctAnswerString2: 

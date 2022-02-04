@@ -13,7 +13,15 @@ MonoBehaviour:
   m_Name: New Quiz Question 1
   m_EditorClassIdentifier: 
   question: Synonym of sick
-  answers: []
+  answers:
+  - ill
+  - unwell
+  - poorly
+  - ailing
+  - indisposed
+  - bad
+  - under the weather
+  - nauseous
   correctAnswer: 0
-  correctAnswerString: ill
+  correctAnswerString: 
   correctAnswerString2: 

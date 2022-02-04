@@ -13,7 +13,14 @@ MonoBehaviour:
   m_Name: New Quiz Question 6
   m_EditorClassIdentifier: 
   question: Antonym of wet
-  answers: []
+  answers:
+  - dry
+  - parched
+  - wilted
+  - withered
+  - dehydrated
+  - brittle
+  - desiccated
   correctAnswer: 0
-  correctAnswerString: dry
+  correctAnswerString: 
   correctAnswerString2: 

@@ -13,7 +13,15 @@ MonoBehaviour:
   m_Name: New Quiz Question 7
   m_EditorClassIdentifier: 
   question: Antonym of full
-  answers: []
+  answers:
+  - empty
+  - vacant
+  - unoccupied
+  - uninhabited
+  - bare
+  - desolate
+  - deserted
+  - abandoned
   correctAnswer: 0
-  correctAnswerString: empty
+  correctAnswerString: 
   correctAnswerString2: 

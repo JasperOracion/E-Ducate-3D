@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: New Quiz Question 9
   m_EditorClassIdentifier: 
   question: Antonym of short
-  answers: []
+  answers:
+  - long
+  - length
+  - extended
+  - prolonged
+  - extensive
+  - lasting
   correctAnswer: 0
-  correctAnswerString: long
+  correctAnswerString: 
   correctAnswerString2: 

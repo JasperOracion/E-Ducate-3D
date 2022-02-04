@@ -14,6 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: I am the only planet we know of so far that has been inhabited by living
     things.
-  answers: []
+  answers:
+  - Earth
+  - Mercury
+  - Venus
+  - Mars
   correctAnswer: 0
-  correctAnswerString: Earth
+  correctAnswerString: 
+  correctAnswerString2: 

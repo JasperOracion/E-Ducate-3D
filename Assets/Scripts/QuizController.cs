@@ -208,6 +208,51 @@ public class QuizController : MonoBehaviour
         }
     }
 
+    public void SubmitAnswerTypedSynonymsAntonyms()
+    {
+        bool isCorrect = Array.Exists(currentQuestion.Answers, x => x == answer.text.ToString().ToLower().Trim('\0'));
+        
+        uiController.HandleSubmittedAnswer(isCorrect);
+
+        if (isCorrect == true)
+        {
+            answer.text = null;
+            counterCorrectAnswerStreak += 1;
+
+            if (counterCorrectAnswerStreak == 3)
+            {
+                HealthSystem.health = HealthSystem.health + 1;
+                counterCorrectAnswerStreak = 0;
+            }
+
+            counterNumOfQuestionsLeft -= 1;
+            counterNumOfCorrectAnswers += 1;
+            score.text = counterNumOfCorrectAnswers.ToString();
+
+            if (counterNumOfQuestionsLeft > 0)
+            {
+                StartCoroutine(ShowNextQuestionAfterDelay());
+            }
+            else if (counterNumOfQuestionsLeft == 0)
+            {
+                Congratulations();
+            }
+        }
+        else
+        {
+            StartCoroutine(WrongAnswer());
+            counterCorrectAnswerStreak = 0;
+            if (HealthSystem.health > 0)
+            {
+                HealthSystem.health = HealthSystem.health - 1;
+            }
+            if (HealthSystem.health == 0)
+            {
+                GameOver();
+            }
+        }
+    }
+
     private IEnumerator ShowNextQuestionAfterDelay()
     {
             yield return new WaitForSeconds(delayBetweenQuestions);

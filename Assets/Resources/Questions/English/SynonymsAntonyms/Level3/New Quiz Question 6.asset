@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: New Quiz Question 6
   m_EditorClassIdentifier: 
   question: Antonym of sick
-  answers: []
+  answers:
+  - healthy
+  - fit
+  - strong
   correctAnswer: 0
-  correctAnswerString: healthy
+  correctAnswerString: 
   correctAnswerString2: 

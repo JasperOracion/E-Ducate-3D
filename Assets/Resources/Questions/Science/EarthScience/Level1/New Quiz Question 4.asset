@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: New Quiz Question 4
   m_EditorClassIdentifier: 
   question: I am the largest planet in the solar system.
-  answers: []
+  answers:
+  - Jupiter
+  - Saturn
+  - Uranus
+  - Neptune
   correctAnswer: 0
-  correctAnswerString: Jupiter
+  correctAnswerString: 
+  correctAnswerString2: 

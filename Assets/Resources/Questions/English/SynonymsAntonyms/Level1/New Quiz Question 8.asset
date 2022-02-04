@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: New Quiz Question 8
   m_EditorClassIdentifier: 
   question: Antonym of big
-  answers: []
+  answers:
+  - small
+  - tiny
+  - mini
+  - compact
   correctAnswer: 0
-  correctAnswerString: small
+  correctAnswerString: 
   correctAnswerString2: 

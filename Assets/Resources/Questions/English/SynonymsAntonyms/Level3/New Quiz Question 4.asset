@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: New Quiz Question 4
   m_EditorClassIdentifier: 
   question: Synonym of similar
-  answers: []
+  answers:
+  - alike
+  - same
+  - indistinguishable
+  - akin
+  - interchangeable
+  - related
   correctAnswer: 0
-  correctAnswerString: alike
+  correctAnswerString: 
   correctAnswerString2: 

@@ -1128,6 +1128,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bf0124232ee6041bfcc73fdef4d63d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quizPanel: {fileID: 0}
+  starStation1: {fileID: 0}
+  starStation2: {fileID: 0}
+  starStation3: {fileID: 0}
+  starStation4: {fileID: 0}
+  starStation5: {fileID: 0}
+  starStation6: {fileID: 0}
+  starStation7: {fileID: 0}
+  starStation8: {fileID: 0}
+  starStation9: {fileID: 0}
+  starStation10: {fileID: 0}
+  transition: {fileID: 0}
 --- !u!114 &8024828629327163874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1142,8 +1154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraTransform: {fileID: 8024828627290737995}
   characterController: {fileID: 8024828629327163875}
-  cameraSensitivity: 5
-  moveSpeed: 4
+  cameraSensitivity: 2.5
+  moveSpeed: 6
   moveInputDeadZone: 10
   groundCheck: {fileID: 8024828629225866972}
   isGrounded: 0
@@ -1672,7 +1684,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 150
   field of view: 70.5328
   orthographic: 0
   orthographic size: 5
@@ -1684,8 +1696,8 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
+  m_HDR: 0
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 1
   m_OcclusionCulling: 1

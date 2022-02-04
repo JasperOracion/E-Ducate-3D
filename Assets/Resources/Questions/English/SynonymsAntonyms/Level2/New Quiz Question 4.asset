@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: New Quiz Question 4
   m_EditorClassIdentifier: 
   question: Synonym of scared
-  answers: []
+  answers:
+  - afraid
+  - frightened
+  - fearful
+  - terrified
+  - horrified
   correctAnswer: 0
-  correctAnswerString: afraid
+  correctAnswerString: 
   correctAnswerString2: 

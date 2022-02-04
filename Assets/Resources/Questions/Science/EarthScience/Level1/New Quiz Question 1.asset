@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: New Quiz Question 1
   m_EditorClassIdentifier: 
   question: I am the closest planet to the sun.
-  answers: []
-  correctAnswer: 0
-  correctAnswerString: Mercury
+  answers:
+  - Earth
+  - Mercury
+  - Venus
+  - Mars
+  correctAnswer: 1
+  correctAnswerString: 
+  correctAnswerString2: 

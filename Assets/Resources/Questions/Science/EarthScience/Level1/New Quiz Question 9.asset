@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: New Quiz Question 9
   m_EditorClassIdentifier: 
   question: I am the smallest planet in the solar system.
-  answers: []
-  correctAnswer: 0
-  correctAnswerString: Mercury
+  answers:
+  - Earth
+  - Mercury
+  - Venus
+  - Mars
+  correctAnswer: 1
+  correctAnswerString: 
+  correctAnswerString2: 

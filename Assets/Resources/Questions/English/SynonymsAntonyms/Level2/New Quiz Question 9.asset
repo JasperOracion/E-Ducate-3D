@@ -13,7 +13,15 @@ MonoBehaviour:
   m_Name: New Quiz Question 9
   m_EditorClassIdentifier: 
   question: Antonym of little
-  answers: []
+  answers:
+  - big
+  - great
+  - huge
+  - immense
+  - enormous
+  - collosal
+  - massive
+  - vast
   correctAnswer: 0
-  correctAnswerString: big
+  correctAnswerString: 
   correctAnswerString2: 

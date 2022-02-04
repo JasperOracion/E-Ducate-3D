@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: New Quiz Question 7
   m_EditorClassIdentifier: 
   question: Antonym of bottom
-  answers: []
+  answers:
+  - top
   correctAnswer: 0
-  correctAnswerString: top
+  correctAnswerString: 
   correctAnswerString2: 

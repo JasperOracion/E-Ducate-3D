@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: New Quiz Question 2
   m_EditorClassIdentifier: 
   question: Synonym of mad
-  answers: []
+  answers:
+  - angry
+  - furious
+  - enraged
   correctAnswer: 0
-  correctAnswerString: angry
+  correctAnswerString: 
   correctAnswerString2: 

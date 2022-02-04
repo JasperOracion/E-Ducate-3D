@@ -13,7 +13,17 @@ MonoBehaviour:
   m_Name: New Quiz Question 8
   m_EditorClassIdentifier: 
   question: Antonym of soft
-  answers: []
+  answers:
+  - hard
+  - firm
+  - solid
+  - dense
+  - rigid
+  - stiff
+  - resistant
+  - inflexible
+  - hardened
+  - compact
   correctAnswer: 0
-  correctAnswerString: hard
+  correctAnswerString: 
   correctAnswerString2: 

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: New Quiz Question 3
   m_EditorClassIdentifier: 
   question: I am also called as the red planet.
-  answers: []
-  correctAnswer: 0
-  correctAnswerString: Mars
+  answers:
+  - Earth
+  - Mercury
+  - Venus
+  - Mars
+  correctAnswer: 3
+  correctAnswerString: 
+  correctAnswerString2: 

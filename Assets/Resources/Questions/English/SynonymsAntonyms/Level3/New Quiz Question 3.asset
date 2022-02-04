@@ -13,7 +13,18 @@ MonoBehaviour:
   m_Name: New Quiz Question 3
   m_EditorClassIdentifier: 
   question: Synonym of shout
-  answers: []
+  answers:
+  - yell
+  - cry
+  - call
+  - roar
+  - howl
+  - bellow
+  - bawl
+  - clamor
+  - yawp
+  - yelp
+  - wail
   correctAnswer: 0
-  correctAnswerString: yell
+  correctAnswerString: 
   correctAnswerString2: 

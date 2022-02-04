@@ -10,6 +10,8 @@ public class UIController : MonoBehaviour
     private TextMeshProUGUI questionText;
     [SerializeField]
     private TextMeshProUGUI questionSubtext;
+    [SerializeField]
+    private TextMeshProUGUI questionInstructions;
 
     [SerializeField]
     private TextMeshProUGUI answerUnit;
@@ -134,6 +136,8 @@ public class UIController : MonoBehaviour
             answerImage3.GetComponent<Image>().sprite = spritesGeometryLevel1[14];
             answerImage5.GetComponent<Image>().sprite = spritesGeometryLevel1[22];
             answerImage7.GetComponent<Image>().sprite = spritesGeometryLevel1[17];
+
+            questionInstructions.text = "Complete the pattern";
         }
         if (questionText.text == "Square, Rectangle, Square, Rectangle, Square, Rectangle, _____?")
         {
@@ -162,6 +166,8 @@ public class UIController : MonoBehaviour
             answerImage3.GetComponent<Image>().sprite = spritesGeometryLevel1[22];
             answerImage5.GetComponent<Image>().sprite = spritesGeometryLevel1[6];
             answerImage7.GetComponent<Image>().sprite = spritesGeometryLevel1[14];
+
+            questionInstructions.text = "Complete the pattern";
         }
         if (questionText.text == "Apple, Mango, Mango, Apple, Apple, Mango, Mango, _____?")
         {
@@ -192,6 +198,8 @@ public class UIController : MonoBehaviour
             answerImage3.GetComponent<Image>().sprite = spritesGeometryLevel1[12];
             answerImage5.GetComponent<Image>().sprite = spritesGeometryLevel1[1];
             answerImage7.GetComponent<Image>().sprite = spritesGeometryLevel1[13];
+
+            questionInstructions.text = "Complete the pattern";
         }
         if (questionText.text == "Cat, Cat, Cat, Dog, Dog, Dog, Cat, Cat, _____?")
         {
@@ -224,6 +232,8 @@ public class UIController : MonoBehaviour
             answerImage3.GetComponent<Image>().sprite = spritesGeometryLevel1[7];
             answerImage5.GetComponent<Image>().sprite = spritesGeometryLevel1[3];
             answerImage7.GetComponent<Image>().sprite = spritesGeometryLevel1[10];
+
+            questionInstructions.text = "Complete the pattern";
         }
         if (questionText.text == "Triangle, Triangle, Trapezoid, Triangle, Triangle, Trapezoid, _____?")
         {
@@ -252,6 +262,8 @@ public class UIController : MonoBehaviour
             answerImage3.GetComponent<Image>().sprite = spritesGeometryLevel1[25];
             answerImage5.GetComponent<Image>().sprite = spritesGeometryLevel1[15];
             answerImage7.GetComponent<Image>().sprite = spritesGeometryLevel1[18];
+
+            questionInstructions.text = "Complete the pattern";
         }
         if (questionText.text == "Chicken, Chicken, Egg, Egg, Chicken, Chicken, _____, _____?")
         {
@@ -290,6 +302,8 @@ public class UIController : MonoBehaviour
             answerImage6.GetComponent<Image>().sprite = spritesGeometryLevel1[5];
             answerImage7.GetComponent<Image>().sprite = spritesGeometryLevel1[8];
             answerImage8.GetComponent<Image>().sprite = spritesGeometryLevel1[8];
+
+            questionInstructions.text = "Complete the pattern";
         }
         if (questionText.text == "Soccerball, Basketball, Soccerball, Basketball, Soccerball, Basketball, _____, _____?")
         {
@@ -328,6 +342,8 @@ public class UIController : MonoBehaviour
             answerImage6.GetComponent<Image>().sprite = spritesGeometryLevel1[20];
             answerImage7.GetComponent<Image>().sprite = spritesGeometryLevel1[2];
             answerImage8.GetComponent<Image>().sprite = spritesGeometryLevel1[2];
+
+            questionInstructions.text = "Complete the pattern";
         }
         if (questionText.text == "Pineapple, Watermelon, Watermelon, Pineapple, Watermelon, Watermelon, _____, _____?")
         {
@@ -366,6 +382,8 @@ public class UIController : MonoBehaviour
             answerImage6.GetComponent<Image>().sprite = spritesGeometryLevel1[16];
             answerImage7.GetComponent<Image>().sprite = spritesGeometryLevel1[26];
             answerImage8.GetComponent<Image>().sprite = spritesGeometryLevel1[26];
+
+            questionInstructions.text = "Complete the pattern";
         }
         if (questionText.text == "Short, T-shirt, T-shirt, T-shirt, Short, Short, _____, _____?")
         {
@@ -404,6 +422,8 @@ public class UIController : MonoBehaviour
             answerImage6.GetComponent<Image>().sprite = spritesGeometryLevel1[23];
             answerImage7.GetComponent<Image>().sprite = spritesGeometryLevel1[19];
             answerImage8.GetComponent<Image>().sprite = spritesGeometryLevel1[19];
+
+            questionInstructions.text = "Complete the pattern";
         }
         if (questionText.text == "Spoon, Spoon, Fork, Spoon, Spoon, Fork, _____, _____?")
         {
@@ -442,6 +462,8 @@ public class UIController : MonoBehaviour
             answerImage6.GetComponent<Image>().sprite = spritesGeometryLevel1[9];
             answerImage7.GetComponent<Image>().sprite = spritesGeometryLevel1[21];
             answerImage8.GetComponent<Image>().sprite = spritesGeometryLevel1[21];
+
+            questionInstructions.text = "Complete the pattern";
         }
 
         // Geometry Level 2
@@ -450,60 +472,80 @@ public class UIController : MonoBehaviour
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGeometryLevel2[2];
+
+            questionInstructions.text = "Identify the shape/polygon";
         }
         if (questionText.text == "Pentagon")
         {
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGeometryLevel2[6];
+
+            questionInstructions.text = "Identify the shape/polygon";
         }
         if (questionText.text == "Decagon")
         {
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGeometryLevel2[1];
+
+            questionInstructions.text = "Identify the shape/polygon";
         }
         if (questionText.text == "Octagon")
         {
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGeometryLevel2[5];
+
+            questionInstructions.text = "Identify the shape/polygon";
         }
         if (questionText.text == "Nonagon")
         {
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGeometryLevel2[4];
+
+            questionInstructions.text = "Identify the shape/polygon";
         }
         if (questionText.text == "Hexagon")
         {
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGeometryLevel2[3];
+
+            questionInstructions.text = "Identify the shape/polygon";
         }
         if (questionText.text == "Triangle")
         {
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGeometryLevel2[9];
+
+            questionInstructions.text = "Identify the shape/polygon";
         }
         if (questionText.text == "Square")
         {
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGeometryLevel2[8];
+
+            questionInstructions.text = "Identify the shape/polygon";
         }
         if (questionText.text == "Circle")
         {
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGeometryLevel2[0];
+
+            questionInstructions.text = "Identify the shape/polygon";
         }
         if (questionText.text == "Rectangle")
         {
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGeometryLevel2[7];
+
+            questionInstructions.text = "Identify the shape/polygon";
         }
 
         // Geometry Level 3
@@ -819,7 +861,7 @@ public class UIController : MonoBehaviour
             questionImage1.GetComponent<Image>().sprite = spritesBiologyLevel1[10];
         }
 
-        // Biology Level 2
+        // Biology Level 3
         if (questionText.text == "Whale")
         {
             questionImage1.gameObject.SetActive(true);
@@ -1375,6 +1417,16 @@ public class UIController : MonoBehaviour
             audioPlaySpellingTTS.clip = soundsSpellingLevel3[9];
         }
 
+        // Grammar Level 1
+        if (questionText.text == "visiting my grandmother" || questionText.text == "a short pencil" || questionText.text == "My name is Maria Clara." || questionText.text == "It is a beautiful house." || questionText.text == "playing the violin")
+        {
+            questionInstructions.text = "Is this a sentence or a non-sentence?";
+        }
+        if (questionText.text == "Thank you for helping my mother." || questionText.text == "Good evening." || questionText.text == "Would you like me to carry this for you?" || questionText.text == "Kenneth: Good evening, Rex. Are you okay?" || questionText.text == "Jasper: I am sorry. I forgot to bring your paper.")
+        {
+            questionInstructions.text = "What is an appropriate response?";
+        }
+
         // Grammar Level 2
         if (questionText.text == "Paula keeps on _________ of best gift for his father.")
         {
@@ -1400,6 +1452,21 @@ public class UIController : MonoBehaviour
 
             questionImage1.GetComponent<Image>().sprite = spritesGrammarLevel2[3];
         }
+        if (questionText.text == "Superman saved the world." || questionText.text == "New Year is celebrated every January 1st." || questionText.text == "I want to have wings and fly high up in the sky." || questionText.text == "There are different animal species in the forest." || questionText.text == "Chicken gives egg." || questionText.text == "Jose Rizal is Filipino hero.")
+        {
+            questionInstructions.text = "Is this a real statement or a made-up statement?";
+        }
+
+        //Grammar Level 3
+        if (questionText.text == "acceptable" || questionText.text == "incorrect" || questionText.text == "unlock" || questionText.text == "jobless" || questionText.text == "dishonest")
+        {
+            questionInstructions.text = "Identify the base word and affix (Base word + Affix word OR Affix word + Base word)";
+        }
+        if (questionText.text == "__________ + new = __________ (new again)" || questionText.text == "__________ + heard = __________ (not heard)" || questionText.text == "__________ + perfect = __________ (not perfect)" || questionText.text == "__________ + match = __________ (to match incorrectly)" || questionText.text == "__________ + visit = __________ (visit again)")
+        {
+            questionInstructions.text = "Type the correct prefix and the new word formed";
+        }
+
 
         // Synonyms Antonyms Level 1
         if (questionText.text == "Synonym of little")

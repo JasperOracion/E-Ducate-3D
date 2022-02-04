@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba46dbf74057411499cf3f6bd940a963, type: 3}
   m_Name: New Quiz Question 3
   m_EditorClassIdentifier: 
-  question: "Identify the base word and affix used in \u201Cjobless\u201D (Base word
-    + Affix word OR Affix word + Base word)"
+  question: jobless
   answers: []
   correctAnswer: 0
   correctAnswerString: job

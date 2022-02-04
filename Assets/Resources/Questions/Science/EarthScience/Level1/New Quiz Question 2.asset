@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: New Quiz Question 2
   m_EditorClassIdentifier: 
   question: "I am also known as the Earth\u2019s twin."
-  answers: []
-  correctAnswer: 0
-  correctAnswerString: Venus
+  answers:
+  - Earth
+  - Mercury
+  - Venus
+  - Mars
+  correctAnswer: 2
+  correctAnswerString: 
+  correctAnswerString2: 

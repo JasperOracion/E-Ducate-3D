@@ -13,24 +13,7 @@ MonoBehaviour:
   m_Name: New Quiz Question 8
   m_EditorClassIdentifier: 
   question: "7758 \xF7 431"
-  answers:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  correctAnswer: 18
-  correctAnswerString: 
+  answers: []
+  correctAnswer: 0
+  correctAnswerString: 18
+  correctAnswerString2: 

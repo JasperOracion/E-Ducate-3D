@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: New Quiz Question 3
   m_EditorClassIdentifier: 
   question: Synonym of unhappy
-  answers: []
+  answers:
+  - sad
+  - sorrowful
+  - depressed
+  - miserable
+  - down
   correctAnswer: 0
-  correctAnswerString: sad
+  correctAnswerString: 
   correctAnswerString2: 

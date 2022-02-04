@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: New Quiz Question
   m_EditorClassIdentifier: 
   question: Synonym of shut
-  answers: []
+  answers:
+  - close
+  - slam
+  - fasten
+  - secure
+  - lock
   correctAnswer: 0
-  correctAnswerString: close
+  correctAnswerString: 
   correctAnswerString2: 

@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: New Quiz Question 2
   m_EditorClassIdentifier: 
   question: Synonym of quick
-  answers: []
+  answers:
+  - fast
+  - swift
+  - rapid
+  - speedy
+  - high-speed
+  - nimble
   correctAnswer: 0
-  correctAnswerString: fast
+  correctAnswerString: 
   correctAnswerString2: 
