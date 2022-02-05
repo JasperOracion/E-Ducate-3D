@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: New Quiz Question 5
   m_EditorClassIdentifier: 
   question: I am located at the back of the torso. What body part am I?
-  answers: []
+  answers:
+  - back
   correctAnswer: 0
-  correctAnswerString: Back
+  correctAnswerString: 
+  correctAnswerString2: 

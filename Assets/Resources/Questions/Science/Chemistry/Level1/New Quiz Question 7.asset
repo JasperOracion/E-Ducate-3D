@@ -17,6 +17,6 @@ MonoBehaviour:
   - Solid
   - Liquid
   - Gas
-  - Plasma
   correctAnswer: 0
   correctAnswerString: 
+  correctAnswerString2: 

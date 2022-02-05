@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: New Quiz Question
   m_EditorClassIdentifier: 
   question: I am located at the front of the head. What body part am I?
-  answers: []
+  answers:
+  - face
   correctAnswer: 0
-  correctAnswerString: Face
+  correctAnswerString: 
+  correctAnswerString2: 

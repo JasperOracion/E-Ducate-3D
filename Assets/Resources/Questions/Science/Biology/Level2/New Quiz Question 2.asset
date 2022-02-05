@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: New Quiz Question 2
   m_EditorClassIdentifier: 
   question: I am located below the nose. What body part am I?
-  answers: []
+  answers:
+  - mouth
   correctAnswer: 0
-  correctAnswerString: Mouth
+  correctAnswerString: 
+  correctAnswerString2: 

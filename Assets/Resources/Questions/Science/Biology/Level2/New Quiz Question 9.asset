@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: New Quiz Question 9
   m_EditorClassIdentifier: 
   question: I am located on either side of the head. What body part am I?
-  answers: []
+  answers:
+  - ear
+  - ears
   correctAnswer: 0
-  correctAnswerString: Ears
+  correctAnswerString: 
+  correctAnswerString2: 

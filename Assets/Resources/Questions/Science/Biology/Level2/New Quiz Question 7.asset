@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: New Quiz Question 7
   m_EditorClassIdentifier: 
   question: I am located at the top of the torso. What body part am I?
-  answers: []
+  answers:
+  - chest
   correctAnswer: 0
-  correctAnswerString: Chest
+  correctAnswerString: 
+  correctAnswerString2: 

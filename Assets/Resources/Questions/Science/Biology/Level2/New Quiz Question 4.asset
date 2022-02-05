@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: New Quiz Question 4
   m_EditorClassIdentifier: 
   question: I am located at the bottom of the leg. What body part am I?
-  answers: []
+  answers:
+  - foot
+  - feet
   correctAnswer: 0
-  correctAnswerString: Foot
+  correctAnswerString: 
+  correctAnswerString2: 

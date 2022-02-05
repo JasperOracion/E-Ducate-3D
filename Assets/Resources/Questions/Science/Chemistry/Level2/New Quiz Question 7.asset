@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba46dbf74057411499cf3f6bd940a963, type: 3}
   m_Name: New Quiz Question 7
   m_EditorClassIdentifier: 
-  question: What transition of matter happens when you freeze and turn water into
-    ice?
+  question: What transition of matter happens when you freeze water into ice?
   answers:
   - Freezing
   - Decomposition
@@ -23,3 +22,4 @@ MonoBehaviour:
   - Sublimation
   correctAnswer: 0
   correctAnswerString: 
+  correctAnswerString2: 

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: New Quiz Question 6
   m_EditorClassIdentifier: 
   question: I am located at the middle of the face. What body part am I?
-  answers: []
+  answers:
+  - nose
   correctAnswer: 0
-  correctAnswerString: Nose
+  correctAnswerString: 
+  correctAnswerString2: 
