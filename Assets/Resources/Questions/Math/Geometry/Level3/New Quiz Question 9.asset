@@ -18,5 +18,6 @@ MonoBehaviour:
   - Not Congruent
   - Symmetrical
   - Not Symmetrical
-  correctAnswer: 2
+  correctAnswer: 3
   correctAnswerString: 
+  correctAnswerString2: 

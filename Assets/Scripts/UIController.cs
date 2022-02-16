@@ -1433,24 +1433,32 @@ public class UIController : MonoBehaviour
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGrammarLevel2[0];
+
+            questionInstructions.text = "";
         }
         if (questionText.text == "Kyla is _________ because she got the lowest score on exam.")
         {
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGrammarLevel2[1];
+
+            questionInstructions.text = "";
         }
         if (questionText.text == "Claire is _________.")
         {
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGrammarLevel2[2];
+
+            questionInstructions.text = "";
         }
         if (questionText.text == "Jolly is _____ because it’s his first time joining a quiz bee.")
         {
             questionImage1.gameObject.SetActive(true);
 
             questionImage1.GetComponent<Image>().sprite = spritesGrammarLevel2[3];
+
+            questionInstructions.text = "";
         }
         if (questionText.text == "Superman saved the world." || questionText.text == "New Year is celebrated every January 1st." || questionText.text == "I want to have wings and fly high up in the sky." || questionText.text == "There are different animal species in the forest." || questionText.text == "Chicken gives egg." || questionText.text == "Jose Rizal is Filipino hero.")
         {
