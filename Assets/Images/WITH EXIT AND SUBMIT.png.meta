@@ -48,7 +48,7 @@ TextureImporter:
       213: 6456729728368974741
     second: WITH EXIT AND SUBMIT_14
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -69,6 +69,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -107,6 +108,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -146,6 +148,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -484,6 +498,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      WITH EXIT AND SUBMIT_8: -692174095209160671
+      WITH EXIT AND SUBMIT_5: 448147574619210341
+      WITH EXIT AND SUBMIT_13: 4302810465872358587
+      WITH EXIT AND SUBMIT_7: -5869162012600750401
+      WITH EXIT AND SUBMIT_11: -3477257926616634998
+      WITH EXIT AND SUBMIT_4: -4340636421637798261
+      WITH EXIT AND SUBMIT_2: 2811745686031169950
+      WITH EXIT AND SUBMIT_12: -7578453587399278735
+      WITH EXIT AND SUBMIT_6: 1393364295864331373
+      WITH EXIT AND SUBMIT_0: 1512891087055420817
+      WITH EXIT AND SUBMIT_3: -736624431975592264
+      WITH EXIT AND SUBMIT_9: -4510619487893150208
+      WITH EXIT AND SUBMIT_10: 1804558788092744576
+      WITH EXIT AND SUBMIT_14: 6456729728368974741
+      WITH EXIT AND SUBMIT_1: -1664951396144325278
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
